@@ -1,0 +1,131 @@
+/* Below is all the stlying of the specific components and their elements. */
+.App {
+  text-align: center;
+}
+
+/* Search Component Heading */
+.label {
+  margin-left: 5px;
+  background-color: rgb(224, 224, 224);
+  padding: 12px;
+  border-radius: 7%;
+}
+
+.inputForm {
+  height: 31px;
+}
+
+.media {
+  padding: 9px;
+  padding-right: 5px;
+}
+/* Favourites Component Styling */
+
+.favouritesHeading {
+  margin-top: 20px;
+}
+
+.mediaType {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #46f1d25c;
+  margin: 0;
+}
+
+.images {
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+/* Nav Component Styling */
+
+.pages {
+  background-color: rgba(193, 193, 193, 0.444);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7%;
+}
+
+.navDiv {
+  margin-left: 100px;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+}
+
+/* Results */
+.resultItem {
+  border: 0.21mm black solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.artist {
+  color: rgb(241, 156, 216);
+}
+
+.track {
+  color: rgb(241, 156, 216);
+}
+
+.Description {
+  font-size: 15px;
+}
+
+.addBtn {
+  background-color: rgb(14, 180, 217);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.removeBtn {
+  background-color: rgb(14, 180, 217);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.addBtn:hover {
+  background-color: pink;
+}
+
+.musicResultContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.audio {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  width: 100%;
+  outline: none;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.audioAndSave {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+}
