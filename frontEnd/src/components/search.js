@@ -1,7 +1,7 @@
 //Below are the necessary imports, css, hooks and image import.
 import React from "react";
 import "../App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../iTunes.png";
 
 function Search(props) {
