@@ -2,7 +2,7 @@
 import React from "react";
 import "../App.css";
 import { useState, useEffect } from "react";
-import logo from "../iTunes.png";
+import "../iTunes.png";
 
 function Search(props) {
   //Below are for state variables and their setFunctions.

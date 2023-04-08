@@ -1,10 +1,11 @@
 import "./App.css";
-import logo from "./iTunes.png";
+import logo from "../src/iTunes.png";
 import axios from "axios";
-import Search from "../src/components/search";
-import Favourites from "./components/favourites";
-import Nav from "../src/components/nav";
 import { useState, useEffect } from "react";
+
+import Search from "./components/search";
+import Favourites from "./components/favourites";
+import Nav from "./components/nav";
 
 function App() {
   //State to keep track of the component actively being rendered.
