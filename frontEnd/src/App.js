@@ -1,7 +1,7 @@
 import "./App.css";
 import logo from "../src/iTunes.png";
-import axios from "axios";
-import { useState, useEffect } from "react";
+
+import { useState } from "react";
 
 import Search from "./components/search";
 import Favourites from "./components/favourites";
@@ -23,7 +23,7 @@ function App() {
   //JSX rendered to the dom.
   return (
     <div className="App">
-      <img src={logo}></img>
+      <img alt="logo" src={logo}></img>
       <div>
         {/* Below the Nav component it passed two functions down as props.*/}
         <Nav showSearch={showSearch} showFavourites={showFavourites} />
